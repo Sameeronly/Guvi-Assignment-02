@@ -1,0 +1,53 @@
+var resume = [{
+		"basics": "---",
+		"name": "Mohammad Sameeruddin",
+		"email": "Your email address",
+		"phone": “+91 - 9111111111”,
+		"degree": "Bachelor of Technology"
+
+	},
+	{
+		"location": "---"
+		"address": "A.V.A road, Rajahmundry",
+		"postalCode": "533106",
+		"city": " Rajahmundry ",
+		"countryCode": "India",
+		"region": "Andhra Pradesh"
+	},
+	{
+		"profiles": "----",
+		"network": “Facebook ",
+		"Instagram": "Textrovert.i",
+		"url": "https://textrovert.i/instagram.in//"
+	},
+	{
+		"work": "---",
+		"company": "Amazon",
+		"position": "Software Developer",
+		"startDate": "01-02-2018",
+		"endDate": "01-01-2022",
+	},
+	{
+		"education": "----",
+		"institution": "Sri Gowthami Smart School",
+		"area": "Gandhipuram-3",
+		"studyType": "State board",
+		"startDate": "01-02-2018",
+		"endDate": "01-02-2018",
+		"gpa": "8.5",
+	},
+	{
+		"language1": "English",
+		"fluency": "expert",
+		"language2": "Hindi",
+		"fluency": "expert",
+		"language3": "Telugu",
+		"fluency": "expert"
+	},
+	{
+		"interests": "----",
+		"name": "A category of interests (e.g. 'Sports')",
+		"keywords": "Keywords under this category (e.g. 'Cricket', 'Football', 'Golf')"
+
+	}
+]

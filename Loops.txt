@@ -1,0 +1,48 @@
+1. JSON iterate over all For loops.
+
+var demo=[
+{
+"name": "Mary Muller",
+"info": {
+"title": "Prof.",
+"age": 27,
+"phone": "(898) 789-7903",
+"email": "rigoberto.haley@gmail.com"
+}
+},
+{
+"name": "Jarrod Wyman",
+"info": {
+"title": "Mr.",
+"age": 58,
+"phone": "(273) 232-2697 x126",
+"email": "khermiston@gmail.com"
+}
+},
+{
+"name": "Karlee Mayer",
+"info": {
+"title": "Ms.",
+"age": 21,
+"phone": "1-242-502-9819 x142",
+"email": "wilburn66@gmail.com"
+}
+},
+]
+//For Loop
+for (var i=0;i<demo.length;i++){
+  console.log(demo[i].name);
+}
+//For-in Loop
+for (var key in demo){
+  console.log(demo[key].info.email);
+}
+//forEach loop
+demo.forEach(function(data){
+  console.log(data.info.age);
+  }
+  )
+// For of Loop  
+for (var x of demo){
+  console.log(x.info.phone);
+}
